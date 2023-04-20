@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Consolas";
+}
+
+:root{
+    --border:5px solid #fff
+}
+
+@font-face {
+    font-family: "Jeju";
+    src: url(../assets/font/JejuHallasan-Regular.ttf);
+}
+
+a:any-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+    font-size: 35px;
+}
+li{
+    position: relative;
+    cursor: pointer;
+}
+
+li.active::after{
+    content:url('../assets/img/arrow.svg');
+    width: 16px;
+    position: absolute;
+    right: 0;
+}
+
+/*  */
+
+ul li:hover::after{
+    content:url('../assets/img/arrow.svg');
+    width: 16px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+/*  */
+
+
+
+
+
+.wrapper{
+    max-width: 1800px;
+    margin: 30px auto;
+    width: 100%;
+
+    border-right: var(--border);
+    border-left: var(--border);
+}
+
+.header{
+    border-bottom: var(--border);
+}
+
+.header_container{
+    padding: 90px 0;
+}
+
+.header_title{
+    font-size: 300px;
+    font-family: "jeju";
+    text-align:center;
+}
+
+
+.description{
+    border-bottom: var(--border);
+}
+
+.description_container{
+    max-width: 1800px;
+    margin:0 auto;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.description_title_container{
+    width: 455px;
+
+    border-right: var(--border);
+}
+
+.description_title h2{
+    text-transform: uppercase;
+    font-size: 165px;
+    font-family: "Jeju";
+    text-align: center;
+}
+
+.description_menu_container{
+    max-width: 300px;
+    padding: 35px 30px;
+    border-right: var(--border);
+}
+
+
+
+.description_menu ul li {
+    padding-right: 30px;
+}
+
+
+.description_content_container{
+    width: 1050px;
+    padding: 30px 30px;
+}
+
+.description_content{
+    font-size: 45px;
+}
+
+
+
+
+.types *{
+    font-size: 35px;
+}
+.types_container{
+    max-width: 1800px;
+    margin:0 auto;
+    display:flex;
+}
+.types ul{
+    min-width: 250px;
+}
+.work_container ul{
+    width: 350px;
+}
+
+.work_description p {
+    font-size: 35px;
+}
+
+
+
+.work_img_container{
+    padding: 60px 0;
+    max-width: 1600px;
+    text-align:center;
+    margin:0 auto;
+}
+.work_img_container img {
+    max-width: 1600px;
+}
+
+
+.footer_container{
+    max-width: 1800px;
+    width: 100%;
+    margin:0 auto;
+    display:flex;
+}
+.footer_left{
+    width: 50%;
+}
+
+.footer_contacts_title_container{
+    padding: 20px 0;
+    text-align:center;
+}
+.footer_contacts_title{
+    font-size: 50px;
+    font-family: 'Jeju';
+}
+
+.footer_contacts_content_container{
+    display:flex;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+}
+.footer_contacts_content_container div{
+    padding: 35px 30px;
+}
+
+.footer_contacts_content_container p{
+    line-height: 40px;
+}
+
+.footer_designed_container{
+    padding: 70px 0;
+    text-align:center;
+}
+.footer_designed h3{
+
+    font-size: 50px;
+    font-family: 'Jeju';
+
+}
+
+
+.footer_right{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_img_container img{
+    width: 300px;
+}
+
+.copyright{
+    font-size: 40px;
+    font-weight: 700;
+    text-align:center;
+    padding: 30px;
+}

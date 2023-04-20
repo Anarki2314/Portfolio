@@ -1,0 +1,22 @@
+:root{
+    --border:5px solid #fff;
+}
+
+.p-vert{
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+
+.p-menu{
+    padding: 30px 30px;
+}
+
+.b-right{
+    border-right: var(--border);
+}
+.b-bot{
+    border-bottom: var(--border);
+}
+.m-top{
+    margin-top: 40px;
+}
