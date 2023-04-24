@@ -23,6 +23,9 @@ function getMenu(element){
             let p =document.createElement('p')
             let img= document.createElement('img')
             img.setAttribute('src',`assets/img/${element.innerHTML}.png`)
+            if (element.innerHTML=='Penguin'){
+                img.setAttribute('src',`assets/img/${element.innerHTML}.gif`)
+            }
             let img_container=document.querySelector('.work_img_container')
             img_container.innerHTML=''
             img_container.append(img)
