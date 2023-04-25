@@ -1,22 +1,24 @@
-:root{
-    --border:5px solid #fff;
+:root {
+    --border: 5px solid #fff;
 }
 
-.p-vert{
-    padding-top: 30px ;
+.p-vert {
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.p-menu{
+.p-menu {
     padding: 30px 30px;
 }
 
-.b-right{
+.b-right {
     border-right: var(--border);
 }
-.b-bot{
+
+.b-bot {
     border-bottom: var(--border);
 }
-.m-top{
+
+.m-top {
     margin-top: 40px;
 }

@@ -1,49 +1,70 @@
-const menu_list=
-{
+const menu_list = {
     "main": "Hey, I'm AnarkH1st, a student, doing graphic design and web development, as well as doing custom layout. I know how to work in raster editors (Krita, GIMP, Adobe Photoshop), I understand Figma, Blender. I have good skills in HTML, CSS, Bootstrap 5, JS, Jquery, PHP, Python. My portfolio presents my work divided into categories.",
 
 
+    "contacts": `
+    <div class="contacts">
+        <div class=" desc footer_contacts_content_left">
+            <p>Telephone: 8(800)555-35-35</p>
+            <p class="m-top" >Email: AnarkH1st2314@yandex.ru</p>
+        </div>
+        <div class="desc footer_contacts_content_right">
+            <p>GitHub: <a href="https://github.com/Anarki2314"> Anarki2314</a></p>
+            <p class="m-top">Telegram: <a href="https://t.me/Anarkh1st">@AnarkH1st</a></p>
+        </div>
+    </div>`,
 
-    "contacts": `<div class="contacts">
-    <div class=" desc footer_contacts_content_left">
-        <p>Telephone: 8(800)555-35-35</p>
-        <p class="m-top" >Email: AnarkH1st2314@yandex.ru</p>
-    </div>
-    <div class="desc footer_contacts_content_right">
-        <p>GitHub: <a href="https://github.com/Anarki2314"> Anarki2314</a></p>
-        <p class="m-top">Telegram: <a href="">@AnarkH1st</a></p>
-    </div>
-</div>`,
 
 }
 
-const type={
-    "type":{
-        "WEB":['sites', 'templates'],
+const type = {
+    "type": {
+        "WEB": ['sites', 'templates'],
 
 
-        "Arts":['rastre', 'vector'],
+        "Arts": ['rastre', 'vector'],
 
 
-        "3D":['animations', 'models'],
+        "3D": ['animations', 'models'],
+
+
+        "Bots": ['telegram'],
     },
-    "subtype":{
-        "sites_WEB":['2023','2022'],
-        "templates_WEB":['2023'],
+    "subtype": {
 
-        "rastre_Arts":['2023'],
-        "vector_Arts":['2023'],
 
-        "animations_3D":['2023'],
+        ////////////////////////
+        "sites_WEB": ['2023', '2022'],
+        "templates_WEB": ['2023'],
+        ////////////////////////
 
-        "models_3D":['2023'],
+
+        ////////////////////////
+        "rastre_Arts": ['2023'],
+        "vector_Arts": ['2023'],
+        ////////////////////////
+
+        ////////////////////////
+        "animations_3D": ['2023'],
+        "models_3D": ['2023'],
+        ////////////////////////
+
+
+        ////////////////////////
+        "telegram_Bots": ['2023'],
+        ////////////////////////
+
     },
 
-// Dragonfly Fireplace
-    "year":{
+    // Dragonfly Fireplace
+    "year": {
 
-        "2023_sites":['FastPC'],
-        "2023_templates":[
+
+        ////////////////////////
+        "2023_sites": [
+            'FastPC',
+        ],
+        "2023_templates": [
             'Popart',
             'Avangard',
             'Brutalism',
@@ -52,13 +73,17 @@ const type={
             'Diary calendar',
             'Diary contacts',
         ],
+        "2022_sites": [
+            'Beautify',
+            'VEDExpress',
+            'My-Giro Dark',
+            'My-Giro Light',
+        ],
+        ////////////////////////
 
 
-        "2022_sites":['Beautify','VEDExpress','My-Giro Dark', 'My-Giro Light'],
-
-
-        "2023_rastre":
-        [
+        ////////////////////////
+        "2023_rastre": [
             'Сolor palette',
             'Collage 1',
             'Collage 2',
@@ -82,34 +107,37 @@ const type={
             '3d book 1',
             '3d book 2',
             '3d book 3',
-
-
         ],
-        "2023_vector":[
+        "2023_vector": [
             'Rebus',
             'Labyrinth',
             'Postcard',
             'Postcard rev',
             'Logo',
-
         ],
+        ////////////////////////
 
 
-        "2023_animations":[
+        ////////////////////////
+        "2023_animations": [
             'Penguin',
-
         ],
-
-
-        "2023_models":[
+        "2023_models": [
             'Fireplace',
             'Dragonfly',
             'Penrose',
         ],
+        ////////////////////////
+
+        ////////////////////////
+        "2023_telegram": [
+            'AnarkH1st_ttable',
+            'AnarkH1st_images',
+        ],
 
 
     },
-    "work":{
+    "work": {
 
 
         // WEB
@@ -123,20 +151,17 @@ const type={
         "Diary contacts_2023": ['Source: <a href="https://www.figma.com/file/7FfwNpY8XNsPjv6RRo0VLB/Tasks?node-id=0-1&t=NgGPiJ6H7qUg1CXM-0" target="_blank"> Figma</a>'],
 
 
-
         "Beautify_2022": ['Source: <a href="https://github.com/Anarki2314/Beautify" target="_blank"> Github</a>'],
         "VEDExpress_2022": ['Source: <a href="https://github.com/Anarki2314/VEDExpress" target="_blank"> Github</a>'],
         "My-Giro Dark_2022": ['Source: <a href="https://github.com/Anarki2314/My-Giro" target="_blank"> Github</a>'],
         "My-Giro Light_2022": ['Source: <a href="https://github.com/Anarki2314/My-Giro" target="_blank"> Github</a>'],
 
 
-
         // ARTS
-
         "Сolor palette_2023": [''],
         "Collage 1_2023": [''],
         "Collage 2_2023": [''],
-	    "Collage 3_2023": [''],
+        "Collage 3_2023": [''],
         "Calendar pocket_2023": [''],
         "Calendar desk_2023": [''],
         "Calendar wall 1_2023": [''],
@@ -163,12 +188,15 @@ const type={
         "3d book 3_2023": ['Source: <a href="https://www.figma.com/file/AlJ8Q9soxtCeVavHdPsqPW/Untitled?t=NgGPiJ6H7qUg1CXM-0" target="_blank"> Figma</a>'],
 
 
-        "Penguin_2023":[''],
-        "Fireplace_2023":[''],
-        "Dragonfly_2023":[''],
-        "Penrose_2023":[''],
-        // "FastPC_2023": [''],
-        // "FastPC_2023": [''],
-        // "FastPC_2023": [''],
+        // 3D
+        "Penguin_2023": [''],
+        "Fireplace_2023": [''],
+        "Dragonfly_2023": [''],
+        "Penrose_2023": [''],
+
+
+        // BOTS
+        "AnarkH1st_ttable_2023": [`The bot allows you to find out the schedule of subjects at RTK College.<br>Go to bot: <a href="https://t.me/AnarkH1st_ttableBot" target="_blank">@AnarkH1st_ttableBot</a>`],
+        "AnarkH1st_images_2023": [`The bot allows you to search for photos and remove the background.<br>Go to bot: <a href="https://t.me/AnarkH1st_imagesBot" target="_blank">@AnarkH1st_imagesBot</a>`],
     }
 }

@@ -6,8 +6,8 @@
     font-family: "Consolas";
 }
 
-:root{
-    --border:5px solid #fff
+:root {
+    --border: 5px solid #fff
 }
 
 @font-face {
@@ -15,32 +15,32 @@
     src: url(../assets/font/JejuHallasan-Regular.ttf);
 }
 
-a:any-link{
+
+a:any-link {
     text-decoration: underline;
     color: inherit;
 
 }
 
-ul{
+ul {
     list-style: none;
     font-size: 35px;
 }
-li{
+
+li {
     position: relative;
     cursor: pointer;
 }
 
-li.active::after{
-    content:url('../assets/img/arrow.svg');
+li.active::after {
+    content: url('../assets/img/arrow.svg');
     width: 16px;
     position: absolute;
     right: 0;
 }
 
-/*  */
-
-ul li:hover::after{
-    content:url('../assets/img/arrow.svg');
+ul li:hover::after {
+    content: url('../assets/img/arrow.svg');
     width: 16px;
     position: absolute;
     right: 0;
@@ -48,14 +48,7 @@ ul li:hover::after{
 
 
 
-
-/*  */
-
-
-
-
-
-.wrapper{
+.wrapper {
     max-width: 1800px;
     margin: 30px auto;
     width: 100%;
@@ -64,184 +57,200 @@ ul li:hover::after{
     border-left: var(--border);
 }
 
-.header{
+.header {
     border-bottom: var(--border);
 }
 
-.header_container{
+.header_container {
     padding: 90px 0;
 }
 
-.header_title{
+.header_title {
     font-size: 300px;
     font-family: "jeju";
-    text-align:center;
+    text-align: center;
 }
 
 
-.description{
+
+.description {
     border-bottom: var(--border);
 }
 
-.description_container{
+.description_container {
     max-width: 1800px;
-    margin:0 auto;
+    margin: 0 auto;
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
 
-.description_title_container{
+.description_title_container {
     width: 455px;
 
     border-right: var(--border);
 }
 
-.description_title h2{
+.description_title h2 {
     text-transform: uppercase;
     font-size: 165px;
     font-family: "Jeju";
     text-align: center;
 }
 
-.description_menu_container{
+.description_menu_container {
     max-width: 300px;
     padding: 35px 30px;
     border-right: var(--border);
 }
 
-
-
 .description_menu ul li {
     padding-right: 30px;
 }
 
-
-.description_content_container{
+.description_content_container {
     width: 1050px;
     padding: 30px 30px;
 }
-.description_content_container *{
+
+.description_content_container * {
     font-size: 35px !important;
     font-weight: normal !important;
     display: block !important;
     width: 100%;
 }
-.desc{
+
+
+
+.desc {
     padding: 35px 30px 0 !important;
 }
-.description_content_container p{
+
+.description_content_container p {
     display: flex !important;
 
 }
 
-.description_content{
+.description_content {
     font-size: 45px;
 }
 
 
-.works_title_container{
+
+.works_title_container {
     padding: 20px 0;
-    text-align:center;
+    text-align: center;
 }
-.works_title{
+
+.works_title {
     font-size: 50px;
     font-family: 'Jeju';
 }
 
-.types *{
+
+
+.types * {
     font-size: 35px;
 }
-.types_container{
+
+.types_container {
     max-width: 1800px;
-    margin:0 auto;
-    display:flex;
+    margin: 0 auto;
+    display: flex;
 }
-.types ul{
+
+.types ul {
     min-width: 250px;
 }
-.work_container ul{
+
+.work_container ul {
     width: 350px;
 }
 
 .work_description p {
     font-size: 35px;
 }
-.work_description_container a{
+
+.work_description_container a {
     cursor: pointer;
     text-decoration: underline;
 }
 
-
-.work_img_container{
+.work_img_container {
     padding: 60px 0;
     max-width: 1600px;
-    text-align:center;
-    margin:0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
+
 .work_img_container img {
     max-width: 1600px;
 }
 
 
-.footer_container{
+
+.footer_container {
     max-width: 1800px;
     width: 100%;
-    margin:0 auto;
-    display:flex;
+    margin: 0 auto;
+    display: flex;
 }
-.footer_left{
+
+.footer_left {
     width: 50%;
 }
 
-.footer_contacts_title_container{
+.footer_contacts_title_container {
     padding: 20px 0;
-    text-align:center;
+    text-align: center;
 }
-.footer_contacts_title{
+
+.footer_contacts_title {
     font-size: 50px;
     font-family: 'Jeju';
 }
 
-.contacts{
-    display:flex;
+.contacts {
+    display: flex;
     width: 100%;
     font-size: 25px;
     font-weight: 700;
 }
-.contacts div{
+
+.contacts div {
     padding: 35px 30px;
 }
 
-.contacts p{
+.contacts p {
     line-height: 40px;
 }
 
-.footer_designed_container{
+.footer_designed_container {
     padding: 70px 0;
-    text-align:center;
+    text-align: center;
 }
-.footer_designed h3{
+
+.footer_designed h3 {
 
     font-size: 50px;
     font-family: 'Jeju';
 
 }
 
-
-.footer_right{
+.footer_right {
     width: 50%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer_img_container img{
+
+.footer_img_container img {
     width: 300px;
 }
 
-.copyright{
+.copyright {
     font-size: 40px;
     font-weight: 700;
-    text-align:center;
+    text-align: center;
     padding: 30px;
 }
