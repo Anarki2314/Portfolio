@@ -5,7 +5,7 @@ const menu_list = {
     "contacts": `
     <div class="contacts">
         <div class=" desc footer_contacts_content_left">
-            <p>Telephone: 8(800)555-35-35</p>
+            <p>Telephone: 8(989)283-79-81</p>
             <p class="m-top" >Email: AnarkH1st2314@yandex.ru</p>
         </div>
         <div class="desc footer_contacts_content_right">
